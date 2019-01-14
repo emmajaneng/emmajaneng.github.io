@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>Portfolio</title>
+   <link rel="stylesheet" href="contactstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Lato" rel="stylesheet">
+</head>
+
+<header>
+  <nav>
+    <a class = "Emma" href="index.html" >Emma Ng</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+
+<body>
+ <section>   
+<div class="head">
+<h1>
+ Hello! 
+</h1>
+<h1>
+  Contact me at:
+</h1>
+  <p>
+Email: Emmajaneng@gmail.com
+   </p> 
+  <p>
+<a href= " https://www.citr.ca/radio/goodie-with-emma-ng/">Radio and Podcast</a>
+   </p>
+    </div>
+<div class="slideshow" style="height:400px; width:200px" > <!––style="max-width:1000px"-->
+  <img class="photos" src="0017_17a91330017.jpg" alt="Photos credited to Helena Kim">
+  <img class="photos" src="0018_18a91330018.jpg" alt="Photos credited to Helena Kim">
+</div>
+  </section>
+  </body>
+  
+ <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("photos");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+</html>
