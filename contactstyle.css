@@ -1,0 +1,57 @@
+header {
+  color: #2312e2;
+  margin: 100px;
+  height:  20px;
+}
+
+body{
+  padding: 10px 10px 100px 10px;
+  margin: auto 5px 0 0;
+}
+
+h1{font-family: 'Gentium Book Basic', serif;
+  color: #2312e2;
+  font-size: 18px;
+  background-color: #ffffff;}
+p{
+  font-size: 11px; font-family: Lato;color: #2312e2
+}
+
+
+.Emma{font-size: 18px;float: left;
+}
+nav{
+  font-family: 'Gentium Book Basic', serif;
+  color: #2312e2;
+  background-color: #ffffff;
+  display: block;
+  vertical-align: middle;
+}
+nav a{font-size: 18px; padding: 0 5px 0 5px;float: right}
+
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #333333;
+}
+a:visited{ color: #2312e2;}
+section{ 
+ grid-template-rows:250px;
+ grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  display: grid;
+  grid-gap:50px;
+  margin: auto;}
+
+.slideshow{ transform: rotate(-90deg); float: left;padding: 0;}
+.head{float: right;padding: 100px 0 0 400px}
+
+.photos{
+ object-fit: cover;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  height: 250px;}
